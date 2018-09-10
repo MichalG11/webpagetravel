@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Moje podróże</title>
+	<meta name="description" content="Piękne miejsca w Europie">
+	<meta name="keywords" content="Alpy, Florencja, góry, Chorwacja, Wencja, Plitwickie">
+	<meta name="author" content="MG">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/search.css">	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>       
+	
+	<script>
+			jQuery(function($)
+			{
+					  $.scrollTo(0);
+					  
+					  $('.link1').click(function() {$.scrollTo($('#sd1'), 1000);  } );
+					  $('#link2').click(function() {$.scrollTo($('#sd2'), 1000);  } );
+					  $('#link3').click(function() {$.scrollTo($('#sd3'), 1000);  } );
+					  $('#link4').click(function() {$.scrollTo($('#sd4'), 1000);  } );
+					  $('#link5').click(function() {$.scrollTo($('#sd5'), 1000);  } );
+					  $('#link6').click(function() {$.scrollTo($('#sd6'), 1000);  } );
+					  $('#link7').click(function() {$.scrollTo($('#sd7'), 1000);  } );
+					  $('#link8').click(function() {$.scrollTo($('#sd8'), 1000);  } );
+					  $('#link9').click(function() {$.scrollTo($('#sd9'), 1000);  } );
+					  $('.link10').click(function() {$.scrollTo($('#sd10'), 1000);  } );
+					  $('#link11').click(function() {$.scrollTo($('#sd11'), 1000);  } );
+					  $('#link12').click(function() {$.scrollTo($('#sd12'), 1000);  } );
+					  $('.link13').click(function() {$.scrollTo($('#sd13'), 1000);  } );
+					  $('#link14').click(function() {$.scrollTo($('#sd14'), 1000);  } );
+					  $('#link15').click(function() {$.scrollTo($('#sd15'), 1000);  } );
+					  $('#link16').click(function() {$.scrollTo($('#sd16'), 1000);  } );
+					  $('#link17').click(function() {$.scrollTo($('#sd17'), 1000);  } );
+					  $('.link18').click(function() {$.scrollTo($('#sd18'), 1000);  } );
+					  $('#link19').click(function() {$.scrollTo($('#sd19'), 1000);  } );
+
+					  $('.linkx1').click(function() {$.scrollTo($('#sd16'), 1000);  } );
+					  $('.linkx2').click(function() {$.scrollTo($('#sd1'), 1000);  } );
+					  $('.linkx3').click(function() {$.scrollTo($('#sd9'), 1000);  } );
+					  $('.linkx4').click(function() {$.scrollTo($('#sd4'), 1000);  } );
+					  
+					  $('.scrollup').click(function() {$.scrollTo($('body'), 1000);  } );
+			}
+			);
+
+			$(window).scroll(function()
+			{
+				if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+				else $('.scrollup').fadeOut();
+			}
+			);
+	</script>
+	
+</head>
+
+<body>
+
+		<div id="header">
+				Rejony, które warto odwiedzić
+		</div>
+		
+		<div class="nav">
+				<ol>
+						<li><a class="link1" href="#">Szwajcaria</a>
+								<ul>
+										<li><a class="link1" href="#">Schaffushausen</a></li>
+										<li><a id="link2" href="#">Lauterbrunen</a></li>
+										<li><a id="link3" href="#">Grindelwald</a></li>
+										<li><a id="link4" href="#">Sustenpass</a></li>
+										<li><a id="link5" href="#">Gotthardpass</a></li>
+										<li><a id="link6" href="#">Furkapass</a></li>
+										<li><a id="link7" href="#">Grimselpass</a></li>
+										<li><a id="link8" href="#">San-Bernardinio-pass</a></li>
+										<li><a id="link9" href="#">Triftbrucke</a></li>
+								</ul>
+						</li>
+						<li><a class="link10" href="#">Włochy</a>
+								<ul>
+										<li><a class="link10" href="#">Punta Helbronner</a></li>
+										<li><a id="link11" href="#">Gran Paradiso</a></li>
+										<li><a id="link12" href="#">Plaża Viarregio</a></li>
+								</ul>
+						</li>
+						<li><a class="link13" href="#">Francja</a>
+								<ul>
+										<li><a class="link13" href="#">La Salette</a></li>
+										<li><a id="link14" href="#">Col de Saint Bernard</a></li>
+										<li><a id="link15" href="#">Col de Iseran</a></li>
+										<li><a id="link16" href="#">Col du Galibier</a></li>
+										<li><a id="link17" href="#">Col Agnel</a></li>
+								</ul>
+						</li>
+						<li><a class="link18" href="#">Austria</a>
+								<ul>
+										<li><a class="link18" href="#">Kappl</a></li>
+										<li><a id="link19" href="#">Innsbruck</a></li>
+								</ul>
+						</li>
+				</ol>
+		</div>
+		
+		<div id="header2">
+				<h1>Wybrane ciekawe miejsca</h1>
+				<p>Jeśli lubisz podróże i krajobrazy? Jeśli dla Ciebie, tak jak dla mnie, ważniejsza jest trasa niż cel? Zachęcam do obejrzenia zdjęć. </p>
+		</div>
+		
+		<div id="conteiner">
+		
+				<a class="scrollup" href="#"></a>
+
+				<div class="pictures">
+						<div class="picture">
+								<a  href="#"><img src="img/f1s.jpg"/></a>
+								<a class="linkx1" href="#"><span class="icon"><i class="icon-search"></i><p>zobacz zdjęcia</p></span></a>
+						</div>
+						<p>Francja - Col de Galibier</p>
+				</div>
+				<div class="pictures">
+						<div class="picture">
+								<a href="#"><img src="img/f2s.jpg"/></a>
+								<a class="linkx2" href="#"><span class="icon"><i class="icon-search"></i><p>zobacz zdjęcia</p></span></a>
+						</div>
+						<p>Szwajcaria - Schaffhausen</p>
+				</div>
+				<div class="pictures">
+						<div class="picture">
+								<a href="#"><img src="img/f3s.jpg"/></a>
+								<a class="linkx3" href="#"><span class="icon"><i class="icon-search"></i><p>zobacz zdjęcia</p></span></a>
+						</div>
+						<p>Szwajcaria - Triftbrucke</p>
+				</div>
+				<div class="pictures">
+						<div class="picture">
+								<a href="#"><img src="img/f4s.jpg"/></a>
+								<a class="linkx4" href="#"><span class="icon"><i class="icon-search"></i><p>zobacz zdjęcia</p></span></a>
+						</div>
+						<p>Szwajcaria - Sustenpass</p>
+				</div>
+				<div style="clear:both"></div>
+				
+				<div id="header2">
+						<h1>Wszystkie zdjęcia z wyprawy</h1>
+						<p>Miłego oglądania!</p>
+				</div>
+
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd1">
+								<p><br/><br/><br/><br/><br/><br/>Schaffhausen</p>
+								</div>
+						</div>
+						<div class="bigfoto">
+								<img src="img/f2.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Schaffhausen</p>
+						</div>
+						<div class="bigfoto">
+								<img src="img/f22.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Schaffhausen</p>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f23.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd2">
+								<p><br/><br/><br/><br/><br/><br/>Lauterbrunen</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f5.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Lauterbrunen</p>
+						</div>
+						<div class="bigfoto">
+								<img src="img/f51.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Lauterbrunen</p>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f53.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd3">
+								<p><br/><br/><br/><br/><br/><br/>Grindelwald</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f6.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd4">
+								<p><br/><br/><br/><br/><br/><br/>Sustenpass - ulubione miejsce </p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f4.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Sustenpass</p>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f44.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd5">
+								<p><br/><br/><br/><br/><br/><br/>Gotthardpass</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f7.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd6">
+								<p><br/><br/><br/><br/><br/><br/>Furkapass</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f8.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd7">
+								<p><br/><br/><br/><br/><br/><br/>Grimselpass</p>
+								</div>
+						</div>								
+						<div class="bigfoto">
+								<img src="img/f9.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Grimselpass</p>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f99.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd8">
+								<p><br/><br/><br/><br/><br/><br/>San-Bernardinio-pass</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f181.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd9">
+								<p><br/><br/><br/><br/><br/><br/>Triftbrucke</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f3.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Triftbrucke</p>
+						</div>	
+						<div class="bigfoto">
+								<img src="img/f33.jpg"/>
+						</div>
+				</div>
+
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd10">
+								<p><br/><br/><br/><br/><br/><br/>Punta Helbronner</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f111.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Punta Helbronner</p>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f112.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Punta Helbronner</p>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f113.jpg"/>
+						</div>
+				</div>
+
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd11">
+								<p><br/><br/><br/><br/><br/><br/>Gran Paradiso</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f411.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd12">
+								<p><br/><br/><br/><br/><br/><br/>Plaża Viarregio</p>
+								</div>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f171.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd13">
+								<p><br/><br/><br/><br/><br/><br/>La Salette</p>
+								</div>
+						</div>								
+						<div class="bigfoto">
+								<img src="img/f141.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd14">
+								<p><br/><br/><br/><br/><br/><br/>Col de Saint Bernard</p>
+								</div>
+						</div>								
+						<div class="bigfoto">
+								<img src="img/f131.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd15">
+								<p><br/><br/><br/><br/><br/><br/>W drodze na Col de Iseran</p>
+								</div>
+						</div>								
+						<div class="bigfoto">
+								<img src="img/f121.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Col de Iseran</p>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f122.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd16">
+								<p><br/><br/><br/><br/><br/><br/>Col du Galibier</p>
+								</div>
+						</div>
+						<div class="bigfoto">
+								<img src="img/f1.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd17">
+								<p><br/><br/><br/><br/><br/><br/>Col Agnel</p>
+								</div>
+						</div>								
+						<div class="bigfoto">
+								<img src="img/f151.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd18">
+								<p><br/><br/><br/><br/><br/><br/>Kappl</p>
+								</div>
+						</div>								
+						<div class="bigfoto">
+								<img src="img/f311.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<p><br/><br/><br/><br/><br/><br/>Kappl</p>
+						</div>		
+						<div class="bigfoto">
+								<img src="img/f312.jpg"/>
+						</div>
+				</div>
+				
+				<div class="bigfotos">
+						<div class="sd">
+								<div id="sd19">
+								<p><br/><br/><br/><br/><br/><br/>Innsbruck</p>
+								</div>
+						</div>								
+						<div class="bigfoto">
+								<img src="img/f211.jpg"/>
+						</div>
+				</div>
+				</div>
+		</div>
+		
+		<div id="footer">
+				<div id="socials">
+					<div class="fb">
+						<a href="https://www.facebook.com" target="blank" class="sociallink"><i class="icon-facebook"></i></a>
+					</div>
+					<div class="yt">
+						<a href="https://www.youtube.com" target="blank" class="sociallink"><i class="icon-youtube"></i></a>
+					</div>
+					<div class="tw">
+						<a href="https://twitter.com" target="blank" class="sociallink"><i class="icon-twitter"></i></a>
+					</div>
+					<div class="gplus">
+						<a href="https://plus.google.com" target="blank" class="sociallink"><i class="icon-gplus"></i></a>
+					</div>
+					<div style="clear:both"></div>
+				</div>		
+		</div>
+		
+		<div id="end">
+				Wszelkie prawa zastrzeżone © 2018 Dziękuję za wizytę!
+		</div>
+		
+	<script src="jquery-1.11.3.min.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+	</script>
+
+</body>
+</html>

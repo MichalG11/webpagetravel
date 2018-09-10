@@ -1,0 +1,364 @@
+body
+{
+	background-color: #292d32;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #efefef;
+	margin: 0!important;
+}
+
+#header
+{
+	font-size: 50px;
+	color: #33adff;
+	letter-spacing: 5px;
+	text-align: center;
+	line-height: 300%;
+}
+
+.nav
+{
+	background-color: #006bb3;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #003d66;
+	border-bottom: 1px solid #003d66;
+}
+
+ol
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 20px;
+	height: 34px;
+	line-height: 200%;
+}
+
+ol a
+{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ol > li
+{
+	float: left;
+	width: 180px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+
+ol > li:hover
+{
+	background-color: #b3e0ff;
+}
+
+ol > li:hover > a
+{
+	color: #001f33;
+}
+
+ol > li > ul
+{
+	font-size: 15px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:  #006bb3;
+	border-top: 1px dashed #751b1b;
+	position: relative;
+	z-index: 150;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #b3e0ff;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #001f33;
+}
+
+#header2
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header2 h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #33adff;
+	letter-spacing: 5px;
+	text-align: center;
+	line-height: 300%;
+}
+
+#header2 p
+{
+	font-size: 20px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#conteiner
+{
+	width: 1000px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pictures
+{
+	float:left;
+	width:440px;
+	height: 360px;
+	padding: 30px;
+	text-align: center;
+}
+
+.picture
+{
+	margin: 0px;
+	position: relative;
+	width:440px;
+	height: 330px;
+}
+
+.picture .linkx1
+{
+	position: absolute;
+	display: block;
+	width:100%;
+	height: 100%;
+	background-color: #4da6ff;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: all 1.1s ease-in-out;
+	text-decoration: none;
+}
+
+.picture .linkx2
+{
+	position: absolute;
+	display: block;
+	width:100%;
+	height: 100%;
+	background-color: #4da6ff;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: all 1.1s ease-in-out;
+	text-decoration: none;
+}
+
+.picture .linkx3
+{
+	position: absolute;
+	display: block;
+	width:100%;
+	height: 100%;
+	background-color: #4da6ff;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: all 1.1s ease-in-out;
+	text-decoration: none;
+}
+
+.picture .linkx4
+{
+	position: absolute;
+	display: block;
+	width:100%;
+	height: 100%;
+	background-color: #4da6ff;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	transition: all 1.1s ease-in-out;
+	text-decoration: none;
+}
+
+.icon
+{
+	display: block;
+	position: relative;
+	font-size: 72px;
+	top: 35%;
+	color: #ffffff;
+}
+
+.icon p
+{
+	font-size: 24px;
+}
+
+.picture:hover .linkx1
+{
+	opacity: 0.85;
+}
+
+.picture:hover .linkx2
+{
+	opacity: 0.85;
+}
+
+.picture:hover .linkx3
+{
+	opacity: 0.85;
+}
+
+.picture:hover .linkx4
+{
+	opacity: 0.85;
+}
+
+.pictures p
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.bigfotos
+{
+	margin-top: -50px;
+}
+
+.bigfotos p
+{
+	padding-top: 0px;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+#footer
+{
+	width: 100%;
+	background-color: #111111;
+}
+
+#socials
+{
+	margin-top: 100px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+#end
+{
+	text-align: center;
+	line-height: 500%;
+}
+
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 250px;
+	height: 155px;
+}
+
+.sd
+{
+	margin: 0;
+	padding: 0;
+	height: 210px;
+}
